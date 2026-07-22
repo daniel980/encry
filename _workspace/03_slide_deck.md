@@ -3,6 +3,13 @@
 > Visual Designer 산출물 (03, **개정 v2**). `01_story_structure.md`(승인본 13장) · `02_info_design.md`(정보 설계서) · **`00c_format_reference.md`(사용자 제공 SKT 보고서 포맷 레퍼런스)** 를 준수.
 > 본 문서는 **python-pptx 생성의 직접 입력**이다. 좌표는 16:9 / 960×540pt 캔버스 기준(= 33.87×19.05cm, 1pt ≈ 0.0353cm)으로 기술한다.
 > v2 변경: 디자인 시스템·레이아웃을 사용자 제공 PPT 포맷(흰 배경 + 다크 네이비 #17375E, 헤더 바 + 중앙 거버닝 메시지 구조)으로 교체. 02 문서의 콘텐츠(테이블 셀·다이어그램 구성·색상 의미 체계)는 변경 없음.
+>
+> **v3 변경 (사용자 지시 — 공동 개발 개념 제거)**: "공동 개발" 주체를 폐기하고 **"SKT 개발 (DSX OS 활용)"**(앰버, 태그 `SKT+DSX`)으로 재정의 — 개발 주체는 전부 SKT이며, DSX OS는 기반 제공자.
+> - **슬라이드 6 전면 재설계**: 2단 구조 — 하단 "NVIDIA DSX OS Reference 기반"을 **Compute/Network/Storage/Facility 4개 도메인 컬럼**으로 정리(DCGM·Health Automation / UFM·Spectrum·NMX / STX·NVMe-oF·DPU 오프로드 / DSX Exchange + 공통 모듈 스트립), 중간 표준 인터페이스 스트립(OTel·Redfish·MQTT·MCP), 상단 "SKT 개발 레이어"(파이프라인→저장→분석→대시보드·AI 에이전트 + OOB 수집기).
+> - 슬라이드 2: 거버닝 메시지 "DSX OS가 제공하는 기반 위에 SKT가 개발" 프레임으로 수정, 결과 박스 라벨 공동→SKT 개발, D2 문구 수정.
+> - 슬라이드 7: 매트릭스 주체 재계수 — SKT 개발 13(자체 9 + DSX 활용 4) · DSX OS 제공 7 · ★4. Storage 수집은 DSX 제공으로 정정.
+> - 슬라이드 5·9·11·12·백업 C 및 발표자 노트의 "공동" 표현 일괄 재정의 (NVIDIA와의 "공동 설계 워크숍"은 유지 — 설계 협의는 공동, 개발은 SKT).
+> - 실제 생성 스크립트: `_workspace/build_deck.js` (본 문서 v3 반영분이 최신 기준)
 
 ---
 
