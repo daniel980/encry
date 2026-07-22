@@ -2,6 +2,12 @@
 
 > Storyteller 산출물 — 사용자 승인 후 02(정보 설계)·03(슬라이드 덱) 단계로 진행
 
+> **[승인됨 + 사용자 보완 지시]** 발표 목적을 다음으로 확정: NVIDIA DSX OS 기반으로
+> Compute·Network·Storage를 포함한 **End-to-end DC 환경 Observability 확보**가 목적이며,
+> **개발 목표는 CoreWeave(코어위브)와 유사 수준의 모니터링/분석 환경 확보**.
+> → CoreWeave는 단순 "왜 지금" 근거를 넘어 **명시적 벤치마크 타깃**으로 격상:
+> 슬라이드 2(목표 문구), 5(벤치마크 비교), 12(로드맵 도달점 "CoreWeave 동등 수준")에 반영할 것.
+
 ## 프레젠테이션 개요
 
 - **제목**: NVIDIA DSX OS 기반 End-to-end Observability 개발 논의 (NVIDIA–SKT 협력)
